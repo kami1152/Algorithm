@@ -14,6 +14,7 @@ import java.util.Scanner;
  * 40 -> 20 -> 10 -> 9 -> 3 -> 1  : 총 5회 출력
  * 
  */
+
 public class DFS_findNone {
     public DFS_findNone(){
         Scanner sc = new Scanner(System.in);
