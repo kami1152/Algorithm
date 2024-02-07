@@ -16,6 +16,7 @@ public class back_7576 {
     static int count = 0;
 
     static Queue<int[]> queue = new LinkedList<>();
+    static Queue<String[]> q = new LinkedList<>();
 
     public back_7576() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
