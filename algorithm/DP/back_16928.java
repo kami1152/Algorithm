@@ -54,10 +54,8 @@ class dfs {
         n[1].check(); // node info <- true;
         while (!que.isEmpty()) {
             int p = que.poll(); // p = 1 // 2 3 4 5 6 7-99
-            if (p == 100) {
-                break;
-            }
-            System.out.println(n[p].rocation + " " + n[p].gethash());
+
+            // System.out.println(n[p].rocation + " " + n[p].gethash());
 
             for (int i = 1; i < 7; i++) {
 
@@ -83,46 +81,49 @@ class dfs {
                     n[n[p + i].getnextnode()].check();
 
                 }
-                System.out.println(n[p + i].rocation + "-" + n[p + i].gethash());
+                if (n[p + i].rocation == 100) {
+                    break;
+                }
+                // System.out.println(n[p + i].rocation + "-" + n[p + i].gethash());
             }
         }
 
         System.out.println(n[100].gethash());
     }
-}
 
-class node {
-    public int rocation;
-    private boolean visted;
-    private int hashinfo = 0;
-    private int nextnode = 0;
+    private static class node {
+        public int rocation;
+        private boolean visted;
+        private int hashinfo = 0;
+        private int nextnode = 0;
 
-    public node(int rocation, boolean visted) {
-        this.rocation = rocation;
-        this.visted = visted;
-    }
+        private node(int rocation, boolean visted) {
+            this.rocation = rocation;
+            this.visted = visted;
+        }
 
-    public void hashinfoset(int hash) {
-        this.hashinfo = ++hash;
-    }
+        public void hashinfoset(int hash) {
+            this.hashinfo = ++hash;
+        }
 
-    public int gethash() {
-        return hashinfo;
-    }
+        public int gethash() {
+            return hashinfo;
+        }
 
-    public void setnode(int nextnode) {
-        this.nextnode = nextnode;
-    }
+        public void setnode(int nextnode) {
+            this.nextnode = nextnode;
+        }
 
-    public int getnextnode() {
-        return nextnode;
-    }
+        public int getnextnode() {
+            return nextnode;
+        }
 
-    public void check() {
-        this.visted = true;
-    }
+        public void check() {
+            this.visted = true;
+        }
 
-    public boolean getvisited() {
-        return visted;
+        public boolean getvisited() {
+            return visted;
+        }
     }
 }
