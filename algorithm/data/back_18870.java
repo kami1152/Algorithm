@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class back_18870 {
 
     static HashMap<Integer, Integer> ranking = new HashMap<Integer, Integer>();
-    List
+
     static int origin[];
     static int sorted[];
     static int N;
