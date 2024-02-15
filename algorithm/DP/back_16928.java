@@ -73,6 +73,9 @@ class dfs {
                     n[p + i].check();
                 }
                 if (n[p + i].getnextnode() != 0) {
+                    if (n[n[next].getnextnode()].getvisited()) {
+                        continue;
+                    }
 
                     que.offer(n[p + i].getnextnode());
                     n[p + i].hashinfoset(n[p].gethash());
