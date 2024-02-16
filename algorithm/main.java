@@ -18,9 +18,11 @@ import algorithm.DP.fibonaccDP;
 import algorithm.data.back_1620;
 import algorithm.data.back_1181;
 import algorithm.data.back_1764;
+import algorithm.data.back_1927;
 import algorithm.math.back_1074;
 import algorithm.math.back_11047;
 import algorithm.math.back_1107;
+import algorithm.math.back_11399;
 import algorithm.math.back_1541;
 import algorithm.math.back_2630;
 import algorithm.math.back_9095;
@@ -52,7 +54,9 @@ public class main {
         // back_1620 x = new back_1620();
         // back_1764 x = new back_1764();
         // back_2667 x = new back_2667();
-        back_1181 x = new back_1181();
+        // back_1181 x = new back_1181();
+        // back_1927 x = new back_1927();
+        back_11399 x = new back_11399();
 
     }
 
