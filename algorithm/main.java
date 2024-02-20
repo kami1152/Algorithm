@@ -7,6 +7,7 @@ import algorithm.DP.DFS_findNone;
 import algorithm.DP.back_10026;
 import algorithm.DP.back_1012;
 import algorithm.DP.back_11724;
+import algorithm.DP.back_11726;
 import algorithm.DP.back_1260;
 import algorithm.DP.back_14940;
 import algorithm.DP.back_16928;
@@ -17,9 +18,13 @@ import algorithm.DP.back_2667;
 import algorithm.DP.back_7576;
 import algorithm.DP.fibonaccDP;
 import algorithm.data.back_1620;
+import algorithm.data.back_1676;
+import algorithm.data.back_1018;
 import algorithm.data.back_11723;
 import algorithm.data.back_1181;
+import algorithm.data.back_1436;
 import algorithm.data.back_1764;
+import algorithm.data.back_1874;
 import algorithm.data.back_1927;
 import algorithm.math.back_1074;
 import algorithm.math.back_11047;
@@ -60,7 +65,12 @@ public class main {
         // back_1927 x = new back_1927();
         // back_11399 x = new back_11399();
         // back_11723 x = new back_11723();
-        back_14940 x = new back_14940();
+        // back_14940 x = new back_14940();
+        // back_11726 x = new back_11726();
+        // back_1018 x = new back_1018();
+        // back_1436 x = new back_1436();
+        // back_1874 x = new back_1874();
+        back_1676 x = new back_1676();
 
     }
 
