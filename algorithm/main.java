@@ -20,6 +20,7 @@ import algorithm.DP.fibonaccDP;
 import algorithm.data.back_1620;
 import algorithm.data.back_1676;
 import algorithm.data.back_1018;
+import algorithm.data.back_10845;
 import algorithm.data.back_11650;
 import algorithm.data.back_11723;
 import algorithm.data.back_1181;
@@ -33,6 +34,7 @@ import algorithm.math.back_11047;
 import algorithm.math.back_1107;
 import algorithm.math.back_11399;
 import algorithm.math.back_1541;
+import algorithm.math.back_1929;
 import algorithm.math.back_2630;
 import algorithm.math.back_9095;
 import algorithm.math.turret;
@@ -74,8 +76,9 @@ public class main {
         // back_1874 x = new back_1874();
         // back_1676 x = new back_1676();
         // back_1966 x = new back_1966();
-        back_11650 x = new back_11650();
-
+        // back_11650 x = new back_11650();
+        // back_10845 x = new back_10845();
+        back_1929 x = new back_1929();
     }
 
 }
