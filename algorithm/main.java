@@ -26,6 +26,7 @@ import algorithm.data.back_11723;
 import algorithm.data.back_1181;
 import algorithm.data.back_1436;
 import algorithm.data.back_1764;
+import algorithm.data.back_18110;
 import algorithm.data.back_1874;
 import algorithm.data.back_1927;
 import algorithm.data.back_1966;
@@ -78,7 +79,8 @@ public class main {
         // back_1966 x = new back_1966();
         // back_11650 x = new back_11650();
         // back_10845 x = new back_10845();
-        back_1929 x = new back_1929();
+        //back_1929 x = new back_1929();
+        back_18110 x = new back_18110();
     }
 
 }
