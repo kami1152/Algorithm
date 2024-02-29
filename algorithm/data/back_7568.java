@@ -1,3 +1,5 @@
+package algorithm.data;
+
 import java.util.Scanner;
  
 public class back_7568 {
@@ -10,8 +12,8 @@ public class back_7568 {
 		int[][] arr = new int[N][2];
  
 		for(int i = 0; i < N; i++) {
-			arr[i][0] = in.nextInt();	// [i][0] : 몸무게 
-			arr[i][1] = in.nextInt();	// [i][1] : 키 
+			arr[i][0] = in.nextInt();	
+			arr[i][1] = in.nextInt();	
 		}
 		
 		
