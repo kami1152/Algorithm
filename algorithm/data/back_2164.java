@@ -1,3 +1,4 @@
+package algorithm.data;
 import java.util.*;
 
 public class back_2164 {
