@@ -17,7 +17,7 @@ class Node implements Comparable<Node>{
     }
 }
 
-public class Main {
+public class back_1753 {
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     private static final int INF = 100_000_000;

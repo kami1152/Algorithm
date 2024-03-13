@@ -1,19 +1,21 @@
 package algorithm;
 class Solution {
-    public String reverse(String number) {
-        String reverseNumber = "";
-        for(int i = number.length()-1; i >= 0; i--)
-            reverseNumber += number.charAt(i);
-        return reverseNumber;
-    }
+=
+    public void solution() {
+    
+        int[][] arr = {{0,2,1,3},{2,0,4,5},{3,4,0,5},{2,3,4,0}};
 
-    public String solution(int n) {
-        String answer = "";
-        for(int i = 0; i < n; i++) {
-            answer += Integer.toString(i+1);
-            answer = reverse(answer);
+        int a[][] = new int[4][4];
+
+        for(int k =0;k<4;k++){
+            for(int i = 0; i < 4; i++){
+                for(int j = 0; j < 4 ; j++){
+                    if(arr[i][k] +arr[k][j]<arr[i][j]){
+                        arr[i][j] = arr[i][k] + d[k][j];
+                    }
+                }
+            }
         }
-        return answer;
     }
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다.    
