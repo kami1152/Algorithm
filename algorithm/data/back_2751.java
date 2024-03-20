@@ -7,22 +7,26 @@ import java.util.*;
 import java.util.Collection;
 
 public class back_2751 {
-    ArrayList<Integer> list = new ArrayList<>();
-
     public back_2751() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
         int N = Integer.parseInt(br.readLine());
 
-        for (int i = 0; i < N; i++) {
-            int a = Integer.parseInt(br.readLine());
-            list.add(a);
+        ArrayList<Integer> list = new ArrayList<>();
+        for(int i = 0; i < N ; i++){
+            int x = Integer.parseInt(br.readLine());
+            list.add(x);
         }
-
         Collections.sort(list);
+       for(int v : list){
+            sb.append(v).append("\n");
+       }
+       System.out.println(sb);
 
-        for (int item : list) {
-            System.out.println(item);
-        }
     }
 
+    public static void main(String[] args) throws IOException {
+        back_2751 b = new back_2751();
+    }
 }
+
