@@ -43,9 +43,9 @@ public class back_2096 {
                 stair[k+1][i].size[0] = stair[k+1][i].maxsize;
                 stair2[k+1][i].size[0] = stair2[k+1][i].minsize;
                 //System.out.println(stair[k+1][i].size[0]);
-                System.out.print(stair2[k+1][i].size[0]+" ");
+                //System.out.print(stair2[k+1][i].size[0]+" ");
             }
-           System.out.println();
+           //System.out.println();
             
         }
 
@@ -110,5 +110,6 @@ public class back_2096 {
 
     public static void main(String[] args) throws IOException {
         back_2096 b = new back_2096();
+  
     }
 }
