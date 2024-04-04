@@ -1,17 +1,18 @@
 package algorithm;
 
-import java.util.*;
-public class Solution{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        for(int i = 0; i < N ; i ++){
-            int cnt = i + 1;
-            while(cnt != 0){
-                System.out.print("*");
-                cnt--;
+import java.io.*;
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
+        String str = sc.readLine();
+        String target = sc.readLine();
+        int cnt = 0;
+        for(char x : str.toCharArray()){
+            if(target.equals(String.valueOf(x))){
+                cnt++;
             }
-            
         }
+        System.out.println(cnt);
     }
 }
