@@ -11,8 +11,10 @@ public class programers_thief {
     static int max;
 
     public static void main(String[] args) {
- 
+
+        int[][] picture = {{1,0,0}}
     }
+
 
     public int[] solution(int m, int n, int[][] picture) {
         int numberOfArea = 0;
@@ -21,6 +23,7 @@ public class programers_thief {
         N = n;
         int[] answer = new int[2];
         board = picture;
+        Arrays.fill(visited, false);
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
