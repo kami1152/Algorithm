@@ -47,7 +47,7 @@ public class programers_Stringzip {
                     String x = s.substring(len-(len%i),len);
                     sb.append(x);
                 }
-                System.out.println(sb.toString());
+                //System.out.println(sb.toString());
                 String com = sb.toString();
                 answer = Math.min(com.length(),answer);
             }
